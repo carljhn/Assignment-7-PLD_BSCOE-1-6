@@ -10,3 +10,5 @@
 sntnc=input("What do you want to say?: ")
 sntnc_low=sntnc.lower() # convert the words to lowercase
 
+vows=["a", "e", "i", "o", "u"]
+count=0
