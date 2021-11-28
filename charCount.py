@@ -12,3 +12,6 @@ sntnc_low=sntnc.lower() # convert the words to lowercase
 
 words=len(sntnc_low.split())
 print("Words: ", words)
+
+vows=["a", "e", "i", "o", "u"]
+count=0
