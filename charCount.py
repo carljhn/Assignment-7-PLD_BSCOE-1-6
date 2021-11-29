@@ -18,3 +18,4 @@ count=0
 for char in sntnc_low:
     if char in vows: 
         count+=1
+print("Vowels: ", count)
