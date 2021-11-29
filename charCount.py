@@ -19,3 +19,7 @@ for char in sntnc_low:
     if char in vows: 
         count+=1
 print("Vowels: ", count)
+
+cons=["b", "c", "d", "f", "g", "h", 
+"j", "k", "l", "m", "n", "p", 
+"q", "r", "s", "t", "v", "w", "x", "y", "z"]
