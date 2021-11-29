@@ -15,3 +15,6 @@ print("Words: ", words)
 
 vows=["a", "e", "i", "o", "u"]
 count=0
+for char in sntnc_low:
+    if char in vows: 
+        count+=1
