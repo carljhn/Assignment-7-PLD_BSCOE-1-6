@@ -23,3 +23,8 @@ print("Vowels: ", count)
 cons=["b", "c", "d", "f", "g", "h", 
 "j", "k", "l", "m", "n", "p", 
 "q", "r", "s", "t", "v", "w", "x", "y", "z"]
+count=0
+for char in sntnc_low:
+    if char in cons:
+        count+=1
+print("Consonants: ", count)
