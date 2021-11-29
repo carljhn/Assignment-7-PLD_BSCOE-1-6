@@ -28,3 +28,5 @@ for char in sntnc_low:
     if char in cons:
         count+=1
 print("Consonants: ", count)
+
+print("Thank you for using this program!")
