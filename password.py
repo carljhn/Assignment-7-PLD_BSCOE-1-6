@@ -10,3 +10,8 @@
 #ouput: Valid
 
 print("Your password must meet the following requirements: \n a) Greater than 15 letters; \n b) at least 1 capital letter is present; \n c) at least 1 number is present; and \n d) at least 1 special character is present.")
+
+def count_capLet(password):
+    capLetA=0
+    capLet=["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", 
+        "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
