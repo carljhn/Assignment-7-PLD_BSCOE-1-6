@@ -27,3 +27,11 @@ def count_capLet(password):
 def count_num(password):
     numB=0
     num=["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"]
+    for char in password:
+        if char in num:
+            numB+=1
+    if numB>=1:
+        return True
+    else:
+        print("Your password invalid: Add at least 1 numeric value")
+        return False
