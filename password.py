@@ -15,3 +15,11 @@ def count_capLet(password):
     capLetA=0
     capLet=["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", 
         "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
+    for char in password:
+        if char in capLet:
+            capLetA+=1
+    if capLetA>=1:
+        return True
+    else: 
+        print("Your password is invalid: Add at least 1 capital letter")
+        return False
