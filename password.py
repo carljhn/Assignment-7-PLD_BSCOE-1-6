@@ -8,3 +8,5 @@
 #ex.
 ##input: P@ssw0rd+P@ssw0rd
 #ouput: Valid
+
+print("Your password must meet the following requirements: \n a) Greater than 15 letters; \n b) at least 1 capital letter is present; \n c) at least 1 number is present; and \n d) at least 1 special character is present.")
