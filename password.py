@@ -57,3 +57,6 @@ def count_len(password):
     else:
         print("Your password is invalid: Must be 16 characters and above")
         return False
+
+while True: 
+    password=input("Enter a new password: \n")
