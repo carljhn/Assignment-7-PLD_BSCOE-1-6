@@ -49,3 +49,11 @@ def count_speChar(password):
     else: 
         print("Your password is invalid: Add at least 1 special character")
         return False
+
+def count_len(password):
+    passLen=len(password)
+    if passLen>15:
+        return True
+    else:
+        print("Your password is invalid: Must be 16 characters and above")
+        return False
