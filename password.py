@@ -23,3 +23,7 @@ def count_capLet(password):
     else: 
         print("Your password is invalid: Add at least 1 capital letter")
         return False
+
+def count_num(password):
+    numB=0
+    num=["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"]
