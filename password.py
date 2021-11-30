@@ -60,3 +60,7 @@ def count_len(password):
 
 while True: 
     password=input("Enter a new password: \n")
+    if count_len(password) and count_capLet(password) and count_num(password) and count_speChar(password)==True:
+        print("Valid password.")
+        print("Thank you for using this program!")
+        break
