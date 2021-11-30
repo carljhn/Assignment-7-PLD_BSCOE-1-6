@@ -41,3 +41,11 @@ def count_speChar(password):
     speChar=["!", "£", "$", "%", "^", "&", "*", "(", ")", "-", "_", "=", "+"
         "[", "{", "]", "}", "~", "#", ";", "@", ":", "'", ",", "<", ".", ">", "?", 
         "/", "¬", "`"]
+    for char in password:
+        if char in speChar:
+            speCharC+=1
+    if speCharC>=1:
+        return True
+    else: 
+        print("Your password is invalid: Add at least 1 special character")
+        return False
