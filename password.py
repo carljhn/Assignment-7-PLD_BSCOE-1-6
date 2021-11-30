@@ -35,3 +35,9 @@ def count_num(password):
     else:
         print("Your password invalid: Add at least 1 numeric value")
         return False
+
+def count_speChar(password):
+    speCharC=0
+    speChar=["!", "£", "$", "%", "^", "&", "*", "(", ")", "-", "_", "=", "+"
+        "[", "{", "]", "}", "~", "#", ";", "@", ":", "'", ",", "<", ".", ">", "?", 
+        "/", "¬", "`"]
